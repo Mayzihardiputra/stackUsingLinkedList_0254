@@ -86,5 +86,19 @@ int main()
         cout << "4.Exit\n";
         cout << "Enter your choice: ";
         cin >> choice;
+
+        switch (choice)
+        {
+        case 1:
+            cout << "enter the value to push : ";
+            cin >> value;
+            stact.push(value);
+            break;
+        case 2:
+            if (!stact.isEmpty())
+            {
+                stact.pop();
+            }
+        }
     }
 }
