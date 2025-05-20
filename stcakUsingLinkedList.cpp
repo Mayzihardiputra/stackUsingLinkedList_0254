@@ -70,3 +70,11 @@ public:
         return top == NULL;
     }
 };
+
+int main()
+{
+    Stack stact;
+
+    int choise = 0;
+    int values;
+}
